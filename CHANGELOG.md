@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.2](http://github.com/zppack/log/compare/v1.0.1...v1.0.2) (2021-03-24)
+
+
+### Documentations
+
+* fix document error ([e0305c3](http://github.com/zppack/log/commit/e0305c307bc473170b94c95e12fc21a02711e01f))
+
 ### [1.0.1](http://github.com/zppack/log/compare/v1.0.0...v1.0.1) (2021-03-24)
 
 
