@@ -1,0 +1,49 @@
+{
+  "name": "@zp/log",
+  "version": "1.0.0",
+  "description": "A log tool in console with 4 levels.",
+  "keywords": [
+    "log",
+    "debug"
+  ],
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "start": "",
+    "prebuild": "npm run clean",
+    "build": "babel src -d dist",
+    "clean": "rimraf dist",
+    "prepare": "npm run build",
+    "release": "standard-version && npm publish",
+    "release:first": "standard-version --first-release && npm publish",
+    "postrelease": "git push && git push origin --tags",
+    "postrelease:first": "git push -u origin master && git push origin --tags",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh+git://git@github.com/zppack/log.git"
+  },
+  "author": "John Chan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zppack/log/issues"
+  },
+  "homepage": "https://github.com/zppack/log",
+  "dependencies": {
+    "chalk": "^4.1.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.13.10",
+    "@babel/core": "^7.13.10",
+    "@babel/preset-env": "^7.13.10",
+    "rimraf": "^3.0.2",
+    "standard-version": "^9.1.1"
+  },
+  "engines": {
+    "node": ">=12",
+    "npm": ">=6"
+  }
+}
