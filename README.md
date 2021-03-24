@@ -1,8 +1,8 @@
-# @zp/log
+# @zppack/log
 
 A log tool in console with 4 levels.
 
-[![NPM](https://nodei.co/npm/@zp/log.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/@zp/log/)
+[![NPM](https://nodei.co/npm/@zppack/log.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/@zppack/log/)
 
 ## Features
 
