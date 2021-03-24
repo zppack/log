@@ -1,5 +1,5 @@
 {
-  "name": "@zp/log",
+  "name": "@zppack/log",
   "version": "1.0.0",
   "description": "A log tool in console with 4 levels.",
   "keywords": [
