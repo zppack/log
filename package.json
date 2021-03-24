@@ -1,6 +1,6 @@
 {
   "name": "@zppack/log",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A log tool in console with 4 levels.",
   "keywords": [
     "log",
