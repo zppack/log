@@ -15,13 +15,13 @@ A log tool in console with 4 levels.
 ### Install
 
 ```sh
-npm install --save @zp/log
+npm install --save @zppack/log
 ```
 
 ### Usage
 
 ```js
-import log from '@zp/log';
+import log from '@zppack/log';
 
 log.i('this is a info-level log');
 log.info('this is also a info-level log');
